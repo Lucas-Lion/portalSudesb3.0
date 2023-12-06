@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* Não desorganizem e a amizade continua XD !!! */
+
+:root {
+    --PrimaryColor:    #041f33;
+    --SecondaryColor:  #e1dfda;
+    --TertiaryColor:   #8e8888;
+    --QuaternaryColor: #26282a48;
+    --QuinaryColor:    #ffffff58;
+    --SenaryColor:     #ffffff;
+    --SeptenaryColor:  #000000;
+}
+
+.color,
+header,
+.box,
+.box:hover,
+.dropdown-item:hover,
+.nav-item:hover {
+    background-color: var(--PrimaryColor);
+}
+
+.card-title,
+h1 {
+    font-size: 1.2em;
+}
+
+a {
+    color: var(--QuinaryColor);
+    text-decoration: none;
+}
+
+/* Layout e Dimensionamento */
+.birthdayCard,
+.card-img-top {
+    max-width: 100%;
+    width: auto;
+}
+
+.box {
+    align-items: center;
+    background-color: var(--PrimaryColor);
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px var(--QuaternaryColor);
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.5s ease;
+    width: 200px;
+}
+
+.card {
+    margin-right: 0 !important;
+    width: 100%;
+}
+
+.container-fluid {
+    width: 82%;
+}
+
+.image-banner img {
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.news-content {
+    background-color: var(--SecondaryColor);
+    padding: 20px;
+}
+
+.carousel-indicators {
+    justify-content: flex-end;
+    list-style-type: none;
+    position: static;
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.servicesLegend {
+    margin-left: 107px;
+}
+
+.text.display {
+    bottom: -50px;
+    opacity: 1;
+}
+
+.box:hover .text {
+    bottom: -50px;
+    opacity: 1;
+}
+
+.dropdown-item:hover {
+    background-color: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    transition: 0.7s;
+}
+
+.nav-item:hover {
+    background-color: var(--TertiaryColor);
+    border-radius: 3px;
+    transition: 1s;
+}
+
+
+.box:hover {
+    background-color: var(--PrimaryColor);
+    color: var(--SenaryColor);
+    transform: translateY(-10px);
+}
+
+.bi-instagram:hover {
+    color: var(--TertiaryColor);
+}
+
+/* Responsividade Mobile */
+@media (max-width: 768px) {
+    .cardDetails,
+    .image-banner,
+    .news-content,
+    h1 {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .box {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .card {
+        margin-right: 0 !important;
+        width: 100%;
+    }
+
+    .carousel-indicators {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-inner {
+        margin-bottom: 10px;
+    }
+
+    .mt-5-sm {
+        margin-top: 3rem !important;
+    }
+
+    .w-100-sm {
+        width: 100% !important;
+    }
+
+    .me-5-sm {
+        margin-right: 3rem !important;
+    }
+
+    .services {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #DinamicCarousel {
+        padding: 0 24px;
+    }
+
+    .news-content {
+        padding: 1rem;
+    }
+
+    .developer {
+        display: none;
+    }
+
+    .GovernoDoEstado {
+        width: 20%;
+    }
+
+    .servicesLegend {
+        margin-left: 22px;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+}

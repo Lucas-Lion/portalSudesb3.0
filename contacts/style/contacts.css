@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* Não desorganizem e a amizade continua XD !!! */
+
+:root {
+    --PrimaryColor:    #041f33;
+    --ButtonColor:     #05304f;
+    --SecondaryColor:  #e1dfda;
+    --TertiaryColor:   #8e8888;
+    --QuaternaryColor: #26282a48;
+    --QuinaryColor:    #ffffff58;
+    --SenaryColor:     #ffffff;
+    --SeptenaryColor:  #000000;
+}
+
+.primaryColor {
+    background-color: var(--PrimaryColor);
+}
+
+header {
+    background-color: var(--PrimaryColor);
+}
+
+.buttonModal {
+    background-color: var(--PrimaryColor);
+    border: none;
+}
+
+.buttonModal:hover {
+    background-color: var(--ButtonColor);
+}
