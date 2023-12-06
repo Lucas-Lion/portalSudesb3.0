@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 /* CSS Document */
 /* Não desorganizem e a amizade continua XD !!! */
@@ -12,6 +13,11 @@
     --QuinaryColor:    #ffffff58;
     --SenaryColor:     #ffffff;
     --SeptenaryColor:  #000000;
+    --Font: font-family: 'Montserrat', sans-serif; 
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .primaryColor {
@@ -29,4 +35,13 @@ header {
 
 .buttonModal:hover {
     background-color: var(--ButtonColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--SeptenaryColor);
+}
+
+table > tbody > tr > td > a:hover {
+    text-decoration: underline;
 }
