@@ -1,47 +1,42 @@
-# portalSudesb3.0
- Portal da Sudesb
+# Portal Sudesb 3.0
+Este é o repositório do Portal Sudesb 3.0, um portal de serviços e atalhos para ferramentas frequentemente utilizadas pelos usuários da empresa.
 
- <header>
-    <h1>Portal Sudesb 3.0</h1>
-  </header>
+<strong><h1>Descrição</h1></strong>
 
-  <main>
-    <section>
-      <h2>Descrição</h2>
-      <p>Este é o repositório do Portal Sudesb 3.0, um portal de serviços e atalhos para ferramentas frequentemente utilizadas pelos usuários da empresa.</p>
-    </section>
+O Portal Sudesb 3.0 é uma aplicação web desenvolvida utilizando HTML, CSS, Bootstrap e JavaScript. Ele foi projetado para facilitar o acesso e a utilização das principais ferramentas e serviços pelos colaboradores da empresa.
 
-    <section>
-      <h2>Funcionalidades</h2>
-      <ul>
-        <li>Navegação intuitiva e amigável para acesso rápido às ferramentas.</li>
-        <li>Utilização de Bootstrap para um design responsivo e moderno.</li>
-        <li>Integração de JavaScript para melhorar a interatividade e experiência do usuário.</li>
-      </ul>
-    </section>
+<strong><h1>Funcionalidades</h1></strong>
 
-    <section>
+- Navegação intuitiva e amigável para acesso rápido às ferramentas.
+- Utilização de Bootstrap para um design responsivo e moderno.
+- Integração de JavaScript para melhorar a interatividade e experiência do usuário.
+
+<strong><h1>Utilização</h1></strong>
+
+Utilize o link do meu GitPages: https://lucas-lion.github.io/portalSudesb3.0/
+
+Para utilizar o Portal Sudesb 3.0, basta clonar o repositório para a sua máquina local e abrir o arquivo index.html em um navegador web compatível:
+
+section>
       <h2>Como utilizar</h2>
       <p>Para utilizar o Portal Sudesb 3.0, basta clonar o repositório para a sua máquina local e abrir o arquivo <code>index.html</code> em um navegador web compatível.</p>
-      <pre><code>git clone https://github.com/Lucas-Lion/portalSudesb3.0.git
-cd portalSudesb3.0
-      </code></pre>
-    </section>
+      <div class="terminal">
+        <code>git clone https://github.com/Lucas-Lion/portalSudesb3.0.git
+cd portalSudesb3.0</code>
+      </div>
+</section>
 
-    <section>
-      <h2>Contribuição</h2>
-      <p>Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, siga estas etapas:</p>
-      <ol>
-        <li>Faça um fork do repositório</li>
-        <li>Crie uma branch para a sua contribuição (<code>git checkout -b feature/MinhaContribuicao</code>)</li>
-        <li>Faça commit das alterações (<code>git commit -am 'Adicionando funcionalidade X'</code>)</li>
-        <li>Push para a branch (<code>git push origin feature/MinhaContribuicao</code>)</li>
-        <li>Abra um Pull Request</li>
-      </ol>
-    </section>
 
-    <section>
-      <h2>Autor</h2>
-      <p>Este projeto foi desenvolvido por Lucas Lion e faz parte do ambiente de trabalho da Superintendência dos Desportos do Estado da Bahia.</p>
-    </section>
-  </main>
+<strong><h1>Contribuição</h1></strong>
+
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, por favor, siga estas etapas:
+<br> <br>
+1- Faça um fork do repositório <br> <br>
+2- Crie uma branch para a sua contribuição (git checkout -b feature/MinhaContribuicao) <br> <br>
+3- Faça commit das alterações (git commit -am 'Adicionando funcionalidade X') <br> <br>
+4- Push para a branch (git push origin feature/MinhaContribuicao) <br> <br>
+5- Abra um Pull Request <br>
+
+<strong><h1>Autor</h1></strong>
+
+Este projeto foi desenvolvido por Lucas Lion e faz parte do ambiente de trabalho da empresa Superintendência dos Desportos do Estado da Bahia.
