@@ -53,9 +53,44 @@ a {
     width: 200px;
 }
 
+.custom-card {
+    max-width: 18rem;
+}
+
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.details-birthday {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.details-birthday:hover {
+    transform: scale(0.95);
+}
+
 .card {
     margin-right: 0 !important;
     width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.custom-card {
+    margin: 0 10px;
 }
 
 .container-fluid {
@@ -86,10 +121,6 @@ a {
 
 .description {
     text-align: justify;
-}
-
-.servicesLegend {
-    margin-left: 107px;
 }
 
 .text.display {

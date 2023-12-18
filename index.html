@@ -20,6 +20,7 @@
         />
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <link rel="stylesheet" href="style/style.css" />
+        <link rel="stylesheet" href="style/estilo.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <title>Portal Sudesb</title>
     </head>
@@ -157,7 +158,9 @@
       </div>
     </div>
 
-    <p class="mt-4 fs-5 servicesLegend">Escolha o serviço abaixo:</p>
+    <div class="container">
+      <p class="mt-4 fs-5">Escolha o serviço abaixo:</p>
+    </div>
         
         <main class="container d-flex flex-wrap mb-4">
             <section class="col-md-6 d-flex flex-wrap align-content-start justify-content-evenly gap-3">
@@ -246,50 +249,39 @@
 
 
             <section class="col-md-6 mb-5">
-          
-                    <div class="container">
-                        
-                        <div class="row">
-                          <div class="col">
-                            <div class="card shadow bg-light mb-3">
-                                <p class="text-center p-2 color rounded-top-2 text-light fs-5">Aniversariantes do Mês</p>
-                              <div class="card-body mx-2">
-                                <div class="row mb-3">
-                                  <div class="col-md-4">
-                                    <img src="images/birthdayPhoto/eu.png" class="img-fluid rounded shadow" alt="Foto do Aniversariante">
-                                  </div>
-                                  <div class="col-md-8 p-2 cardDetails">
-                                    <h5 class="card-title">Lucas Lion</h5>
-                                    <p class="card-text mb-2">Informática</p>
-                                    <p class="card-text">17 / 07</p>
-                                  </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col-md-4">
-                                      <img src="images/birthdayPhoto/pablo.png" class="img-fluid rounded shadow" alt="Foto do Aniversariante">
-                                    </div>
-                                    <div class="col-md-8 p-2 cardDetails">
-                                      <h5 class="card-title">Pablo Henrique</h5>
-                                      <p class="card-text mb-2">Informática</p>
-                                      <p class="card-text">18 / 07</p>
-                                    </div>
-                                  </div>
-                                  <div class="row mb-3">
-                                    <div class="col-md-4">
-                                      <img src="images/birthdayPhoto/vicky.png" class="img-fluid rounded shadow" alt="Foto do Aniversariante">
-                                    </div>
-                                    <div class="col-md-8 p-2 cardDetails">
-                                      <h5 class="card-title">Victoria Blanco</h5>
-                                      <p class="card-text mb-2">Informática</p>
-                                      <p class="card-text">19 / 07</p>
-                                    </div>
-                                  </div>
-                                  
-                              </div>
-                          </div>
+              <div class="card-container d-flex justify-content-center flex-wrap">
+                    <div class="card bg-dark text-white custom-card">
+                        <img src="images/birthdayPhoto/funcionario.png" class="card-img">
+                        <div class="card-img-overlay custom-overlay">
+                            <div class="details-birthday">
+                              <h5 class="card-title">Michael Scott</h5>
+                              <p class="card-text">01/07</p>
+                              <p class="card-text">Informática</p>
+                            </div>
                         </div>
                     </div>
-            </section>
+                    <div class="card bg-dark text-white custom-card">
+                        <img src="images/birthdayPhoto/funcionario.png" class="card-img">
+                        <div class="card-img-overlay custom-overlay">
+                            <div class="details-birthday">
+                              <h5 class="card-title">Michael Scott</h5>
+                              <p class="card-text">02/07</p>
+                              <p class="card-text">Informática</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-white custom-card">
+                        <img src="images/birthdayPhoto/funcionario.png" class="card-img">
+                        <div class="card-img-overlay custom-overlay">
+                            <div class="details-birthday">
+                              <h5 class="card-title">Michael Scott</h5>
+                              <p class="card-text">03/07</p>
+                              <p class="card-text">Informática</p>
+                            </div>
+                        </div>
+                    </div>    
+              </div>
+          </section>
         </main>
     </div>
 
