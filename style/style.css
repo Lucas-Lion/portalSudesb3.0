@@ -32,6 +32,12 @@ a {
     text-decoration: none;
 }
 
+.sectionBirthday {
+    width: 40%;
+    margin: auto;
+    background-color: var(--SecondaryColor);
+}
+
 /* Layout e Dimensionamento */
 .birthdayCard,
 .card-img-top {
@@ -82,12 +88,13 @@ a {
 
 .card-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
     overflow-y: auto;
     max-height: 500px;
+    width: 50%;
+    margin: auto;
 }
+
 
 .custom-card {
     margin: 0 10px;
